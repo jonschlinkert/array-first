@@ -1,0 +1,49 @@
+{
+  "name": "array-first",
+  "description": "Get the first element or first n elements of an array.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jonschlinkert/array-first",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/array-first.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/array-first/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/array-first/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^4.3.1"
+  },
+  "dependencies": {
+    "array-slice": "^0.2.2",
+    "is-number": "^0.1.1"
+  },
+  "keywords": [
+    "array",
+    "fast",
+    "first",
+    "initial",
+    "javascript",
+    "js",
+    "last",
+    "rest",
+    "util",
+    "utility",
+    "utils"
+  ]
+}
