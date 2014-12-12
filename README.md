@@ -1,12 +1,12 @@
-# array-last [![NPM version](https://badge.fury.io/js/array-last.svg)](http://badge.fury.io/js/array-last)
+# array-first [![NPM version](https://badge.fury.io/js/array-first.svg)](http://badge.fury.io/js/array-first)
 
-> Get the last or last n elements in an array.
+> Get the first element or first n elements of an array.
 
 ## Install
 ### Install with [npm](npmjs.org):
 
 ```bash
-npm i array-last --save-dev
+npm i array-first --save-dev
 ```
 
 ## Usage
