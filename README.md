@@ -12,17 +12,33 @@ npm i array-first --save-dev
 ## Usage
 
 ```js
-var last = require('array-last');
+var first = require('array-first');
 
-last(['a', 'b', 'c', 'd', 'e', 'f']);
+first(['a', 'b', 'c', 'd', 'e', 'f']);
 //=> 'f'
 
-last(['a', 'b', 'c', 'd', 'e', 'f'], 1);
+first(['a', 'b', 'c', 'd', 'e', 'f'], 1);
 //=> 'f'
 
-last(['a', 'b', 'c', 'd', 'e', 'f'], 3);
+first(['a', 'b', 'c', 'd', 'e', 'f'], 3);
 //=> ['d', 'e', 'f']
 ```
+
+## Related projects
+
+* [array-last](https://www.npmjs.com/package/array-last): Get the last or last n elements in an array.
+
+## Running tests
+
+Install dev dependencies:
+
+```sh
+$ npm i -d && npm test
+```
+
+## Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](/new).
 
 ## Author
 
