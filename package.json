@@ -3,35 +3,30 @@
   "description": "Get the first element or first n elements of an array.",
   "version": "1.0.1",
   "homepage": "https://github.com/jonschlinkert/array-first",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/array-first.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/array-first",
   "bugs": {
     "url": "https://github.com/jonschlinkert/array-first/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/array-first/blob/master/LICENSE-MIT"
-  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "^4.3.1"
+    "test": "mocha"
   },
   "dependencies": {
-    "array-slice": "^0.2.2",
-    "is-number": "^0.1.1"
+    "array-slice": "^0.2.3",
+    "is-number": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.5",
+    "mocha": "*",
+    "should": "*"
   },
   "keywords": [
     "array",
@@ -45,5 +40,16 @@
     "util",
     "utility",
     "utils"
-  ]
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "array-last"
+      ]
+    },
+    "layout": "default",
+    "plugins": [
+      "gulp-format-md"
+    ]
+  }
 }
