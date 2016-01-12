@@ -15,13 +15,13 @@ npm i array-first --save-dev
 var first = require('array-first');
 
 first(['a', 'b', 'c', 'd', 'e', 'f']);
-//=> 'f'
+//=> 'a'
 
 first(['a', 'b', 'c', 'd', 'e', 'f'], 1);
-//=> 'f'
+//=> 'a'
 
 first(['a', 'b', 'c', 'd', 'e', 'f'], 3);
-//=> ['d', 'e', 'f']
+//=> ['a', 'b', 'c']
 ```
 
 ## Related projects
