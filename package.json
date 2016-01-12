@@ -1,7 +1,7 @@
 {
   "name": "array-first",
   "description": "Get the first element or first n elements of an array.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/jonschlinkert/array-first",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/array-first",
