@@ -18,7 +18,7 @@ module.exports = function arrayFirst(arr, num) {
   }
 
   var first = slice(arr, 0, isNumber(num) ? +num : 1);
-  if (+num === 1 || num == null) {
+  if (+num === 1 || num === undefined) {
     return first[0];
   }
   return first;
