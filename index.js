@@ -13,7 +13,7 @@ module.exports = function arrayFirst(arr, num) {
     throw new Error('array-first expects an array as the first argument.');
   }
 
-  if (arr.length === 0) {
+  if (!arr.length) {
     return null;
   }
 
