@@ -10,7 +10,9 @@ module.exports = function arrayFirst(arr, num) {
     throw new Error('array-first expects an array as the first argument.');
   }
   
-  if(isNaN(+num)) num = 1;
+  num = + num;
+  if(isNaN(num) throw new TypeError("non-convertible value type, expect number type");;
+  if(num > arr.length || num < 0) throw new Error("num is not within the expected number");
   
   return Array(num).fill(0).map((i, index) => arr[index]);
 };
