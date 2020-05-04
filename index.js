@@ -5,21 +5,14 @@
  * Licensed under the MIT license.
  */
 
-var isNumber = require('is-number');
-var slice = require('array-slice');
-
 module.exports = function arrayFirst(arr, num) {
   if (!Array.isArray(arr)) {
     throw new Error('array-first expects an array as the first argument.');
   }
-
-  if (arr.length === 0) {
-    return null;
-  }
-
-  var first = slice(arr, 0, isNumber(num) ? +num : 1);
-  if (+num === 1 || num == null) {
-    return first[0];
-  }
-  return first;
+  
+  num = + num;
+  if(isNaN(num) throw new TypeError("non-convertible value type, expect number type");;
+  if(num > arr.length || num < 0) throw new Error("num is not within the expected number");
+  
+  return Array(num).fill(0).map((i, index) => arr[index]);
 };
