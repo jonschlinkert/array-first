@@ -17,7 +17,7 @@ module.exports = function arrayFirst(arr, num) {
     return null;
   }
 
-  var n = isNumber(num) ? +num : 1;
-  
+  const n = isNumber(num) ? +num : 1;
+
   return +num === 1 || num == null ? arr[0] : slice(arr, 0, n);
 };
